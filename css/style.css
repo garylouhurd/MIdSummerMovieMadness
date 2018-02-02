@@ -1,0 +1,102 @@
+/* --------------------Structural -------------------*/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-image: url(http://www.thedenverear.com/wp-content/uploads/2016/06/11537700_837142439696448_5511909462144477480_n-744x558.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	color:#CCCCCC;
+}
+footer{ 
+	background-color: #fff;
+	font-size: .75rem;
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	 }
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	padding: 1rem;
+	text-align: center;
+}
+section{
+	background-color: rgba(0,29,67,.8);
+	padding-top: 70px;
+}
+p{
+	padding: 1rem;
+	font-size: 1.25rem;
+}
+i {
+	color: rgb(197,179,88);
+}
+ul{
+	list-style-type: none;
+}
+li {
+	font-size: 1.15rem;
+}
+.bio p, h6 {
+	font-size: .57em;
+	padding: .5rem;
+	color: navy;
+}
+.col .boi {
+	padding-top: 0;
+}
+.fa-heart{
+	color: red;
+}
+.btn-primary {
+    color: rgb(223, 228, 223);
+    background-color: rgb(125,151,36);
+    border-color: rgb(63, 75, 65);
+}
+.btn-primary:hover {
+    color: rgb(78, 75, 54);
+    background-color: rgb(195,184,111);
+    border-color: rgb(210, 201, 146);
+}
+/*-----Navigation--------*/
+nav {
+	background-color:rgb(22,112,220);
+}
+.navbar-brand {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 3px;
+	font-size: 1.25em;
+}
+a.nav-link{
+	font-family: 'Playfair Display', serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(252,149,87);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(163,47,18);
+}
+.navbar-light .navbar-toggler {
+    color:rgb(201,120,153);
+    border-color: rgba(201,120,153,.9);
+}
+.navbar-light .navbar-brand {
+    color: rgb(25,25,112);
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgb(72,61,139);
+}
+
+/*-----Sections----*/
+#intro {
+  text-align: center;
+  padding-top: 25%; /*in media queries change the percentage for optimal viewing on other devices*/
+  height: 100vh;
+  color:rgb(255,241,211);
+}
+#movies {
+padding-top: 70px;
+}
+#movies .row{
+	padding: 1rem 2rem;
+}
+#rulesAndEtiquette{
+	padding-bottom: 6rem;
+}
